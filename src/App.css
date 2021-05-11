@@ -36,3 +36,67 @@
     transform: rotate(360deg);
   }
 }
+
+.reload-block-container {
+  display: flex;
+  justify-content: center;
+}
+
+.reload-block-container div {
+  margin: 10px;
+}
+
+.reload-block-title,
+.new-block-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+textarea {
+  width: 400px;
+  height: 200px;
+  resize: none;
+  padding: 15px;
+  font-size: 20px;
+}
+
+.new-block-field {
+  position: relative;
+}
+
+.new-block-btn {
+  position: absolute;
+  bottom: 10px;
+  right: calc(50% - 210px);
+}
+
+.new-block-btn .fa-paper-plane,
+.reload-block-container .fa-sync-alt {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.notes-block {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.note {
+  border: solid gray 1px;
+  margin: 20px;
+  position: relative;
+  width: 150px;
+  padding: 10px;
+}
+.note-remove {
+  position: absolute;
+  right: -12px;
+  top: -12px;
+  cursor: pointer;
+}
+
+.note .fa-times-circle {
+  width: 22px;
+}
